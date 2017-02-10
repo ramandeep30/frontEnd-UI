@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registered</title>
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body background="pic.jpg" style="background-repeat: no-repeat ;background-size: 1920px 870px; ">
+<body>
+<p id="clock" style="font-size: 50px; color: #a2a29c;"/>
+<h1 class="intro">YOU HAVE SUCCESSFULLY REGISTERED</h1>
+<script>
+    function getTime() {
+    var date = new Date();
+    var time =  date.toLocaleTimeString();
+    document.getElementById("clock").innerHTML = "Time: "+time;
+    }
+     setInterval(getTime,1000);
+</script>
+</p>
+</body>
+</html>
